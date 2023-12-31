@@ -12,8 +12,6 @@ body {
 
 .container {
     text-align: center;
-    overflow-y: scroll;
-    margin-top: auto;
 }
 
 .center-content {
@@ -90,6 +88,10 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    .container {
+        text-align: center;
+        margin-top: auto;
+    }
     .center-content {
         max-width: 90%;
     }
