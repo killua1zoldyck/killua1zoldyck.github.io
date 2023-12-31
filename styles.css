@@ -12,6 +12,8 @@ body {
 
 .container {
     text-align: center;
+    overflow-y: scroll;
+    margin-top: auto;
 }
 
 .center-content {
@@ -85,4 +87,17 @@ body {
 
 .leaf-icon:hover img {
     content: url('images/garden/leaf-white.png');
+}
+
+@media screen and (max-width: 768px) {
+    .center-content {
+        max-width: 90%;
+    }
+    .social-icons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .social-icons a {
+        margin: 5px;
+    }
 }

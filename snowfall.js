@@ -10,7 +10,7 @@ canvas.style.left = '0';
 canvas.style.pointerEvents = 'none';
 
 const snowflakes = [];
-const maxSnowflakes = 100;
+const maxSnowflakes = Math.round((canvas.width / 1920) * 100);
 
 const snowLayer = [];
 let accumulatedTime = 0;
